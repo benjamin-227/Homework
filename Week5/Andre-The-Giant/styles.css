@@ -1,0 +1,71 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 100%;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+  float: left;
+}
+
+#bio {
+  float: right;
+}
+#bio > li {
+  padding: 2px;
+}
+
+#pro {
+  width: auto;
+}
+
+@media (max-width: 375px) {
+  body {
+    border: 1px solid red;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  #top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #top img {
+    height: auto;
+    width: 50%;
+    height 50%;
+  }
+
+  img {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  #Stuff {
+    text-align: center;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+}
